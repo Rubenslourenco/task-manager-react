@@ -1,6 +1,5 @@
-// import AddTaks from "./components/AddTaks";
+import AddTaks from "./components/AddTaks";
 import Tasks from "./components/tasks";
-import { useState } from "react";
 
 function App() {
   const [tasks, setTasks] = useState([
@@ -30,7 +29,7 @@ function App() {
         <h1 className="text-3xl text-slate-100 font-bold text-center">
           Gerenciador de Tarefas
         </h1>
-        {/* <AddTaks /> */}
+        <AddTaks />
         <Tasks tasks={tasks} />
       </div>
     </div>
