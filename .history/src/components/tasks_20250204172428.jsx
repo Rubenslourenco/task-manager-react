@@ -8,7 +8,7 @@ function Tasks(props) {
           <button className="bg-slate-400 w-full text-white p-2 rounded-md">
             {task.title}
           </button>
-          <button>
+          <button className="">
             <ChevronRight />
           </button>
         </li>

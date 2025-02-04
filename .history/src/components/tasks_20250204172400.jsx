@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChevronRinght } from "lucide-react";
 
 function Tasks(props) {
   return (
@@ -8,8 +8,8 @@ function Tasks(props) {
           <button className="bg-slate-400 w-full text-white p-2 rounded-md">
             {task.title}
           </button>
-          <button>
-            <ChevronRight />
+          <button className="">
+            <ChevronRinght />
           </button>
         </li>
       ))}
